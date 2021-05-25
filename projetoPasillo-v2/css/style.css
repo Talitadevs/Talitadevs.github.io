@@ -1,0 +1,283 @@
+/* todo - paleta de cores */
+:root{
+    --gelo: rgba(255, 255, 255, 0.897);
+    --azulPrincipal: #101022;
+    --cinzaEscuro: #2d2d3b;
+    --cinzaClaro: #54546e;
+    --azulMedio: #34346e;
+    --azulClaro: #5757ba;
+}
+
+
+/*todo - h1 apenas para motores de busca */
+h1{
+  display: none;
+}
+
+
+/* todo - imagem de fundo */
+body{
+    background: url(../img/back1.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+
+
+/* todo - acessibilidade */
+.acessibility{
+    background: transparent;
+    border: var(--cinzaEscuro);
+    color: white;
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px gray;
+}
+.acessibility:hover{
+    color: black;
+    text-shadow: none;
+}
+
+
+/* todo - menu e titulo */
+.menu{
+    color: white!important;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.menu:hover{
+    color: var(--azulPrincipal)!important;
+    text-shadow: none;
+}
+
+/* todo - posição de acordo com a tela */
+
+/* nomeando seções */
+.cabecalho{
+    grid-area: header;
+}
+.titulo{
+    grid-area: article;
+}
+.menu {
+    grid-area: aside;
+}
+.conteudo {
+    grid-area: main;
+}
+.rodape {
+    grid-area: footer;
+}
+
+/* uma coluna */
+.todoSite {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+      "header"
+      "aside"
+      "article"
+      "main"
+      "footer";
+  }
+
+  /* duas colunas */
+@media (min-width: 360px) {
+    .todoSite {
+      grid-template-columns: 2fr 4fr;
+      grid-template-areas: 
+        "header  aside"
+        "article article"
+        "main    main"
+        "footer  footer";
+    }
+}
+
+/* tres colunas */
+@media (min-width: 700px) {
+    .todoSite {
+      grid-template-columns: 1fr 3fr 1fr;
+      grid-template-areas: 
+        "header article aside"
+        "main   main    main"
+        "footer footer  footer"
+     }
+     
+  }
+
+/* todo - espaçamento dos itens */
+.conteudo{
+    margin: auto;
+}
+.espaco{
+    margin: 20px 2rem 0 2rem;
+    padding: 10px;
+}
+.tituloFundadoras{
+    margin: 130px 0 30px 0;
+}
+
+@media (min-width: 360px) {
+    .boxGerais {
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .boxGerais {
+        margin: auto;
+        margin-bottom: 40px;
+        text-align: center;
+        width: 75%;
+    }
+}
+.tituloIndex{
+    margin-top: 20px;
+    margin-left: 3rem;
+}
+@media (min-width: 360px) {
+    #enviar {
+        margin: auto;
+    }
+}
+
+/* todo - espaçamento projetos Index */
+.divProjetos{
+    margin-top: 130px;
+}
+.alturaProjetos{
+    height: 350px;
+}
+.alturaProjetos p{
+    color: var(--azulPrincipal); 
+}
+.alturaProjetos p:hover{
+    color: var(--azulClaro);
+}
+.alturaProjetos .divImgProjetos{
+    background: none;
+    border: none;  
+    width: 80%;
+}
+.alturaProjetos img{
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px rgb(77, 76, 76);
+}
+.textoProjetos{
+    padding-bottom: 10px;
+}
+
+/* todo - seta */
+#seta{
+    position: fixed;
+    top: 400px;
+   right: 0;
+}
+@media (min-width: 360px) {
+    #seta {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    }
+}  
+
+@media (min-width: 500px) {
+    #seta {
+    position: fixed;
+    top: 400px;
+    right: 0;
+    }
+} 
+
+      
+/* todo - logo pequena */
+.logoPequena{
+    margin-top: 20px;
+    width: 160px;
+}
+
+/* todo - logo grande*/
+
+@media (min-width: 360px) {
+    .logoGrande {
+        margin-top: 20px;
+        padding-left: 2rem;
+       
+    }
+}
+@media (min-width: 500px) {
+    .logoGrande {
+        margin-top: 20px;
+        padding-left: 2rem;
+        
+    }
+}
+@media (min-width: 700px) {
+    .logoGrande {
+        margin-top: 90px;
+        padding-left: 2rem;
+       
+    }
+}
+@media (min-width: 1000px) {
+    .logoGrande {
+        margin-top: 90px;
+        padding-left: 4rem;
+        
+    }
+}
+@media (min-width: 1200px) {
+    .logoGrande {
+        margin-top: 80px;
+        padding-left: 4rem;
+    }
+}
+
+/* todo - linkedIn */
+.linkedin{
+    color: var(--azulClaro);
+}
+.linkedin:hover{
+    color: black;
+}
+
+
+/* todo - formulario */
+#contato{
+    color: var(--azulPrincipal);   
+}
+#nome, #email, #cpf_cnpj,#exampleFormControlSelect1, option{
+    background-color: rgba(226, 227, 248, 0);
+    color: blue;
+}
+.label{
+    color:var(--azulPrincipal);
+}
+
+/* todo - rodape */
+.rodape{
+    background-color: var(--azulPrincipal);
+    display: flexbox;
+    color: wheat;
+    clear: both;
+    height: 80px;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+.rodape span, a{
+    color: var(--gelo);
+    flex-direction: column;
+    padding-left: 1.5rem;
+}
+svg{
+    color: var(--gelo);
+}
+svg:hover{
+    color: var(--azulClaro);
+}
+
+
