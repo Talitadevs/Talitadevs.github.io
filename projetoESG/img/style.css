@@ -1,0 +1,172 @@
+/* zerando config. */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* fundo da página */
+.bgGeral{
+    background-color: #f4f4f4;
+}
+
+/* cabeçalho */
+header{
+    box-shadow: rgb(65, 65, 65) 5px 5px 15px;
+    position:sticky;
+    top:0;
+    z-index: 4;
+}
+
+ul li a{
+    color:#781e77ed;
+    font-size: medium;
+}
+
+ul li a:hover{
+    color:#746a73ed;
+}
+
+
+/* Video */
+#video{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 71vh;
+    top: 0;
+}
+
+#virtual{
+    width: 100%;
+    height: 100%;
+} 
+
+#fechar{
+    position: absolute;
+    padding-top: 18px;
+    font-weight: 700;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    z-index: 3; 
+    top: 1%;
+    right: 1%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+} 
+
+/* Video 2 */
+#video2{
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    height: 60vh;
+    top: 0;
+    left: 5%;
+}
+
+#presencial{
+    width: 100%;
+    height: 100%;
+} 
+
+#fechar2{
+    position: absolute;
+    padding-top: 18px;
+    font-weight: 700;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    z-index: 3;
+    top: 1%; 
+    right: 6%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+} 
+
+/* títulos */
+.boxTextVirtualGame{
+    width: 100%;
+    max-height: max-content;
+    padding: 5%;
+    text-align: center;
+    color: #781e77ed;
+    text-transform: uppercase;
+    font-size : 2rem;
+    line-height:2;
+}
+
+
+/* estilo dos slides */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23781e77ed' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    -webkit-transform:scale(2);
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23781e77ed' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    -webkit-transform:scale(2);
+}
+
+/* cards MVP */
+ .virtual{
+    color: #1FC0DA;
+}
+
+.presencial{
+    color: #EA368E;
+}
+
+/* rodape */
+footer{
+    background-color: #781e77ed;
+    color: rgb(234, 230, 235);
+}
+#rodape:hover{
+    color: #EA368E;
+}
+
+/* responvisidade */
+@media(min-width: 300px) and (max-width: 768px) { 
+    .boxTextVirtualGame{
+        font-size: 16px;
+    }#video{
+        width: 100%;
+        height: 35vh;
+        top: 0;
+    }#fechar{
+        width: 30px;
+        height: 30px;
+        padding-top: 8px;
+        right: 13px;
+        font-weight: 200;
+        font-size: small;
+    }#video2{
+        width: 90%;
+        height: 35vh;
+        left: 5%;
+        top: 0;
+    }#fechar2{
+        width: 40px;
+        height: 40px;
+        padding-top: 8px;
+        right: 13px;
+        font-weight: 500;
+        font-size: small;
+    }#logomarca{
+        width: 100%;
+        height: max-content;
+        left: 1%;
+        top: 0;
+    }ul li a{
+        font-size: 12px;
+    }.boxLogo{
+        width: 20%;
+    }  
+    
+}
