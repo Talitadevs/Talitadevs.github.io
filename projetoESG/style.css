@@ -27,6 +27,7 @@ ul li a:hover{
     color:#746a73ed;
 }
 
+
 /* Video */
 #video{
     position: absolute;
@@ -158,12 +159,14 @@ footer{
         font-weight: 500;
         font-size: small;
     }#logomarca{
-        width: 35%;
-        height: 12%;
+        width: 100%;
+        height: max-content;
         left: 1%;
         top: 0;
     }ul li a{
         font-size: 12px;
+    }.boxLogo{
+        width: 25%;
     }  
     
 }
