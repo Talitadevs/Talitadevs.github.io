@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game ESG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid p-0 bgGeral">
+
+        <!-- início Menu -->
+        <header class="bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand boxLogo" href="https://www.raizen.com.br/" target="_blank">
+                    <img src="img/logo.png" alt="Logo" id="logomarca" width="200" height="88">
+                </a>
+                <div class="teste">
+                <button class="navbar-toggler menu"  type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto float-right">
+                        <li class="nav-item active ">
+                            <a class="nav-link text-info p-3" href="#virtual2">VIRTUAL <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-info p-3" href="#presencial">PRESENCIAL</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-info p-3" href="#mvp">MVP</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- fim Menu -->
+
+        <main>
+
+            <!-- início jogo virtual -->
+            <section class="containerCarrosel">
+                <div id="carouselExampleCaptions" class="carousel slide" data-interval="false">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img id="virtual2" src="img/10.jpg" class="d-block w-100 mx-auto" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/1.jpg" class="d-block w-100 mx-auto" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/2.jpg" class="d-block w-100 mx-auto" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/3.jpg" class="d-block w-100 mx-auto" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <iframe id="virtual"  src="https://www.youtube.com/embed/xAxEgt5KmGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-100 mx-auto"></iframe>
+                            
+                        </div>
+                        <!-- video carousel 
+                        <div class="carousel-item">
+                            <a href="#" id="botao_video">
+                                <img class="d-block w-100 mx-auto" src="img/8.jpg" alt="">
+                            </a>
+                        </div>
+                        início video 
+                        <h4 id="fechar">
+                            X
+                        </h4>
+                        <div id="video">
+                            <iframe id="virtual" width="1010" height="178" src="https://www.youtube.com/embed/xAxEgt5KmGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                         fim video -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </section>
+            <!-- fim jogo slide virtual -->
+
+            <!-- início slide jogo presencial -->
+            <section>
+                <section class="boxTextVirtualGame">
+                    <div >
+                        <p>PROPOSTA PRESENCIAL</p>
+                        <p><strong>JOGO NOSSA RAÍZ - PASSA OU REPASSA</strong></p>
+                    </div>
+                </section>
+                <section>
+                    <div id="carouselExampleCaptions" class="carousel slide" data-interval="false">
+                        <ol>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <!-- video carousel -->
+                            <div class="carousel-item active">
+                                <iframe id="presencial" src="https://www.youtube.com/embed/Gq9VJQRUOVs" title="YouTube video player"
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-block w-75 mx-auto"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- início video
+                        <h4 id="fechar2">
+                            X
+                        </h4>
+                        <div id="video2">
+                            <iframe id="presencial" width="560" height="315"
+                                src="https://www.youtube.com/embed/Gq9VJQRUOVs" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                         fim video -->
+                    </div>
+                </section>
+            </section>
+            <!-- fim slide jogo presencial -->
+
+            <!-- início mvp -->
+            <section class="boxTextVirtualGame">
+                <p><strong>MVP</strong></p>
+            </section>
+            <section class="container d-flex pb-5">
+                <div class="card-group">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title bg-info p-2 text-light">GAME VIRTUAL</h5>
+
+                            <!-- início mão de obra virtual-->
+                            <h6 id="mvp" class="virtual">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-people" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                </svg>
+                                MÃO DE OBRA
+                            </h6>
+                            <p class="card-text">
+                                Um Colaborador Raízen para comandar a reunião semanal e anunciar o brinde surpresa.
+                                </br></br>
+                                Um Colaborador Raízen com conhecimento sobre ESG para elaborar as perguntas e respostas
+                                do QUIZ.
+                                </br></br>
+                                Esporadicamente, um ponto focal em cada área da Raízen. Como a proposta envolve o tema
+                                relacionado a uma área por mês, talvez seja necessário haver um ponto focal da área
+                                selecionada para auxiliar na elaboração do QUIZ.
+                            </p>
+                            <!-- fim mão de obra virtual -->
+
+                            <!-- início prazo de entrega virtual -->
+                            <h6 class="virtual">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-alarm" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z" />
+                                    <path
+                                        d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z" />
+                                </svg>
+                                PRAZO DE ENTREGA
+                            </h6>
+                            <p class="card-text">
+                                Operante em 45 dias, considerando os prazos estabelecidos na execução das tarefas
+                                precendes a seguir:
+                                </br> </br>
+                                -30 dias para elaboração de 50 perguntas e respostas. A pretenção é criar uma base de
+                                dados para o jogo por dois meses, considerando que proposta contempla o jogo 1 vez por
+                                semana, com 5 perguntas por jogo e 4 semanas por mês;
+                                </br> </br>
+                                -7 dias de antecedência, anunciar nos meios de comunicação pertinentes o lançamento do
+                                jogo, para gerar expectativa e, consequentemente, engajamento, além de permitir que haja
+                                um estudo prévio sobre o tema;
+                                </br> </br>
+                                -8 dias destinados a definição e aquisição dos brindes, aquisição se for o caso.
+                            </p>
+                            <!-- fim prazo de entrega virtual-->
+
+                            <!-- início investimento virtual-->
+                            <h6 class="virtual">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-coin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z" />
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+                                </svg> INVESTIMENTO
+                            </h6>
+                            <p class="card-text">
+                                -Brinde, com valor a ser derterminado pelas áreas responsáveis. Reforçando que pode
+                                haver investimento implicíto, se o brinde se referir por exmeplo, a folga de trabalho
+                                dos colaboradores;
+                                </br></br>
+                                -20 a 30 minutos, uma vez por semana, do colaborador resposável por comandar o jogo;
+                                </br></br>
+                                -15 a 20 minutos, uma vez por semana, de todo colaborador que estiver participando da
+                                rodada;
+                                </br></br>
+                                -Inicialmente, 3 horas do colaborador responsável por elaborar o padrão do e-mail de
+                                convocação do jogo, considerando recorrências, lista de transmissão e outros. E,
+                                esporadicamente, algum ajuste de texto;
+                                </br></br>
+                                -ferramenta do QUIZ (Mentimenter), é gratuita no nomento até o limite de 2000
+                                participantes por vez.
+                            </p>
+                            <!-- fim investimento virtual-->
+
+                            <!-- inicio escalabilidade virtual -->
+                            <h6 class="virtual">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-diagram-2" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H11a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 5 7h2.5V6A1.5 1.5 0 0 1 6 4.5v-1zM8.5 5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1zM3 11.5A1.5 1.5 0 0 1 4.5 10h1A1.5 1.5 0 0 1 7 11.5v1A1.5 1.5 0 0 1 5.5 14h-1A1.5 1.5 0 0 1 3 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1A1.5 1.5 0 0 1 9 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
+                                </svg>ESCALABILIDADE
+                            </h6>
+                            <p class="card-text">
+                                -O QUIZ pode ser automatizado e sintetizado em um link com data e hora certa para
+                                iniciar e finalizar, eliminando assim a necessidade de utilizar reunião do TEAMS e de
+                                alocar um colaborador para esta tarefa;
+                                </br></br>
+                                -O QUIZ pode deixar de ser um jogo de perguntas e respostas e passar a ter personagens e
+                                fases. O objetivo é inserir como requisito para mudança de fase, a entrega de
+                                determinada quantidade de material para reciclagem em um ponto de coleta e, também,
+                                criar miniatura física dos personagens como recompensa de algumas etapas do jogo.
+                                </br></br>
+                            </p>
+                            <!-- fim escalabilidade virtual-->
+
+
+                            <!-- início requisitos virtual -->
+                            <h6 class="virtual">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-card-checklist" viewBox="0 0 16 16">
+                                    <path
+                                        d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                                    <path
+                                        d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
+                                </svg> REQUISITOS
+                            </h6>
+                            <p class="card-text">
+                                -Ter acesso a internet, ao Teams, e entrar no horário marcado para início do jogo.
+                            </p>
+                            <!-- fim requisitos virtual-->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title bg-secondary p-2 text-light">GAME PRESENCIAL</h5>
+
+                            <!-- início mão de obra presencial-->
+                            <h6 class="presencial">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-people" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                </svg>
+                                MÃO DE OBRA
+                            </h6>
+                            <p class="card-text">
+                                O líder do time para comandar o jogo e anunciar o prêmio surpresa;
+                                </br></br>
+                                Um Colaborador Raízen com conhecimento sobre ESG para elaborar as perguntas e respostas
+                                do QUIZ com apoio do líder responsável pelo time jogador.
+                                </br></br>
+                                Um colaborador para apoiar na organização física do jogo, caso necessário.
+                            </p>
+                            <!-- fim mão de obra presencial-->
+
+                            <!-- início prazo de entrega presencial-->
+                            <h6 class="presencial">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-alarm" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z" />
+                                    <path
+                                        d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z" />
+                                </svg>
+                                PRAZO DE ENTREGA
+                            </h6>
+                            <p class="card-text">
+                                Operante em 30 dias após liberação do retorno presencial das unidades, considerando os
+                                prazos estabelecidos na execução das tarefas precendes a seguir:
+                                </br> </br>
+                                -18 dias para elaboração de 20 perguntas e respostas. A proposta contempla aproveitar
+                                alguma reunião mensal que a liderança já possui com a área que ocorra 1 vez por mês,
+                                integrando o jogo como momento de descontração, neste caso, o jogo contará com 10
+                                perguntas por encontro;
+                                </br> </br>
+                                -7 dias de antecedência, anunciar nos meios de comunicação pertinentes o lançamento do
+                                jogo, para gerar expectativa e, consequentemente, engajamento, além de permitir que haja
+                                um estudo prévio sobre o tema;
+                                </br> </br>
+                                -5 dias destinados a definição e aquisição dos brindes, aquisição se for o caso.
+                            </p>
+                            <!-- fim prazo de entrega presencial-->
+
+                            <!-- início investimento presencial-->
+                            <h6 class="presencial">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-coin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z" />
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+                                </svg> INVESTIMENTO
+                            </h6>
+                            <p class="card-text">
+                                -Brinde, com valor a ser derterminado pelas áreas responsáveis. Reforçando que pode
+                                haver investimento implicíto, se o brinde se referir por exmeplo, a folga de trabalho
+                                dos colaboradores;
+                                </br></br>
+                                -1 hora, uma vez por mês, do colaborador resposável por adequar o ambiente com os itens
+                                necessários;
+                                </br></br>
+                                -1 hora, uma vez por mês, de todo colaborador que estiver participando do jogo;
+                                </br></br>
+                                -Uma mesa já existente no local para servir de apoio no jogo (local para baterem a mão
+                                quando souberem a resposta).
+                            </p>
+                            <!-- fim investimento presencial-->
+
+                            <!-- inicio escalabilidade presencial-->
+                            <h6 class="presencial">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-diagram-2" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H11a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 5 7h2.5V6A1.5 1.5 0 0 1 6 4.5v-1zM8.5 5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1zM3 11.5A1.5 1.5 0 0 1 4.5 10h1A1.5 1.5 0 0 1 7 11.5v1A1.5 1.5 0 0 1 5.5 14h-1A1.5 1.5 0 0 1 3 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1A1.5 1.5 0 0 1 9 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
+                                </svg>ESCALABILIDADE
+                            </h6>
+                            <p class="card-text">
+                                - Esse jogo poderá deixar de ser realizado somente dentro de uma equipe e envolver
+                                outras áreas que trabalham fisicamente próximas. Dessa forma, ficaria uma disputa em que
+                                cada equipe seria de uma área diferente o que, consequentemente, aumentaria um pouco o
+                                tempo do jogo;
+                                </br></br>
+                                - Para deixar o jogo ainda mais dinâmico e interativo, poderá ser adicionado uma
+                                pontuação extra para aquela equipe que, durante o período do jogo, conseguir impactar de
+                                forma positiva o ambiente ao seu entorno (exemplo: organização e higienização da área de
+                                trabalho, realização de ginástica laboral com demais colaboradores, incentivo a postura
+                                correta, entre outros);
+                                </br></br>
+                                - O jogo também poderá ser aplicado em escolas e reuniões com a comunidade do entorno.
+                                </br></br>
+                            </p>
+                            <!-- fim escalabilidade presencial-->
+
+                            <!-- início requisitos presencial-->
+                            <h6 class="presencial">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-card-checklist" viewBox="0 0 16 16">
+                                    <path
+                                        d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                                    <path
+                                        d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
+                                </svg> REQUISITOS
+                            </h6>
+                            <p class="card-text">
+                                -Estar presente na reunião. A ideia é que seja aproveitada uma reunião recorrente que já
+                                aconteça com frequência mensal entre o líder e seu time.
+                            </p>
+                            <!-- fim requisitos presencial-->
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- fim mvp -->
+
+        </main>
+
+        <!-- início footer -->
+        <footer class="text-center p-3">
+            <p>Copyright © 2022 Raízen</p>
+            <p id="rodape">Erika H.Porto, Fernanda Galdiano, Talita Fernandes e Tatiana Passarini</p>
+        </footer>
+        <!-- fim footer -->
+
+        <!-- links -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+            integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+            crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+
+</body>
+</div>
+
+</html>
