@@ -39,7 +39,7 @@ ul li a:hover{
 
 #virtual{
     /* width: 100%; */
-    height: 40.000em;
+    height: 37.800em;
 } 
 
 #presencial{
@@ -173,9 +173,9 @@ footer{
     }.boxLogo{
         width: 20%;
     }#virtual{
-        height: 15.000em;
+        height: 13.000em;
     }#presencial{
-        height: 15.000em !important;
+        height: 13.000em !important;
     }  
     
 }
