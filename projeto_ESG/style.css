@@ -1,0 +1,99 @@
+/* zerando config. */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* fundo da página */
+.bgGeral{
+    background-color: #f4f4f4;
+}
+
+/* cabeçalho */
+header{
+    box-shadow: rgb(65, 65, 65) 5px 5px 15px;
+    position:sticky;
+    top:0;
+    z-index: 4;
+}
+
+ul li a{
+    color:#781e77ed;
+    font-size: medium;
+}
+
+ul li a:hover{
+    color:#746a73ed;
+}
+
+/* Vídeos */
+#virtual{
+    height: 37.800em;
+} 
+
+#presencial{
+    height: 30.000em !important;
+} 
+
+/* títulos */
+.boxTextVirtualGame{
+    width: 100%;
+    max-height: max-content;
+    padding: 5%;
+    text-align: center;
+    color: #781e77ed;
+    text-transform: uppercase;
+    font-size : 2rem;
+    line-height:2;
+}
+
+/* estilo dos slides */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23781e77ed' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    -webkit-transform:scale(2);
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23781e77ed' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    -webkit-transform:scale(2);
+}
+
+/* cards MVP */
+ .virtual{
+    color: #1FC0DA;
+}
+
+.presencial{
+    color: #EA368E;
+}
+
+/* rodape */
+footer{
+    background-color: #781e77ed;
+    color: rgb(234, 230, 235);
+}
+#rodape:hover{
+    color: #EA368E;
+}
+
+/* responvisidade */
+@media(min-width: 300px) and (max-width: 768px) { 
+    .boxTextVirtualGame{
+        font-size: 16px;
+    }#logomarca{
+        width: 100%;
+        height: max-content;
+        left: 1%;
+        top: 0;
+    }ul li a{
+        font-size: 12px;
+    }.boxLogo{
+        width: 20%;
+    }#virtual{
+        height: 11.000em;
+    }#presencial{
+        height: 11.000em !important;
+    }  
+    
+}
